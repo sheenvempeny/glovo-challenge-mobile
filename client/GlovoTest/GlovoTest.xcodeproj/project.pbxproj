@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30274FBC20E8B53A0009DC4D /* LocSelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30274FBB20E8B53A0009DC4D /* LocSelViewController.swift */; };
+		3049587F20E5BF1B00C41A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049587E20E5BF1B00C41A73 /* AppDelegate.swift */; };
+		3049588120E5BF1B00C41A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049588020E5BF1B00C41A73 /* ViewController.swift */; };
+		3049588420E5BF1B00C41A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3049588220E5BF1B00C41A73 /* Main.storyboard */; };
+		3049588620E5BF2800C41A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3049588520E5BF2800C41A73 /* Assets.xcassets */; };
+		3049588920E5BF2800C41A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3049588720E5BF2800C41A73 /* LaunchScreen.storyboard */; };
+		3049589420E5BF2800C41A73 /* GlovoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049589320E5BF2800C41A73 /* GlovoTestTests.swift */; };
+		3049589F20E5CB6F00C41A73 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049589E20E5CB6E00C41A73 /* LocationManager.swift */; };
+		304958A220E5DD6800C41A73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304958A120E5DD6800C41A73 /* MapKit.framework */; };
+		307893E020E7394B00414122 /* CityFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307893DF20E7394B00414122 /* CityFetcher.swift */; };
+		307893E220E73B2400414122 /* CountryFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307893E120E73B2400414122 /* CountryFetcher.swift */; };
+		307893E420E78FA500414122 /* CityInfoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307893E320E78FA500414122 /* CityInfoFetcher.swift */; };
+		307893E720E8A61200414122 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307893E620E8A61200414122 /* MapViewController.swift */; };
+		C801E425C789CA13533A1B80 /* Pods_GlovoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A31720DEE0947015408178 /* Pods_GlovoTestTests.framework */; };
+		D8AA417E6F0357D6084403BB /* Pods_GlovoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFFC43B47A76D8CDF699C93 /* Pods_GlovoTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3049589020E5BF2800C41A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3049587320E5BF1B00C41A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3049587A20E5BF1B00C41A73;
+			remoteInfo = GlovoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F944603CFC0AE41BBA9BBD /* Pods-GlovoTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlovoTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlovoTestTests/Pods-GlovoTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFFC43B47A76D8CDF699C93 /* Pods_GlovoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlovoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30274FBB20E8B53A0009DC4D /* LocSelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocSelViewController.swift; sourceTree = "<group>"; };
+		3049587B20E5BF1B00C41A73 /* GlovoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlovoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049587E20E5BF1B00C41A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3049588020E5BF1B00C41A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3049588320E5BF1B00C41A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3049588520E5BF2800C41A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3049588820E5BF2800C41A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3049588A20E5BF2800C41A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049588F20E5BF2800C41A73 /* GlovoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlovoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049589320E5BF2800C41A73 /* GlovoTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlovoTestTests.swift; sourceTree = "<group>"; };
+		3049589520E5BF2800C41A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049589E20E5CB6E00C41A73 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		304958A120E5DD6800C41A73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		307893DF20E7394B00414122 /* CityFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFetcher.swift; sourceTree = "<group>"; };
+		307893E120E73B2400414122 /* CountryFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFetcher.swift; sourceTree = "<group>"; };
+		307893E320E78FA500414122 /* CityInfoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInfoFetcher.swift; sourceTree = "<group>"; };
+		307893E620E8A61200414122 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3491F8B434E8444F9847F562 /* Pods-GlovoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlovoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlovoTest/Pods-GlovoTest.release.xcconfig"; sourceTree = "<group>"; };
+		5462E06B865B090BDE4FEAE9 /* Pods-GlovoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlovoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlovoTest/Pods-GlovoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		67F684C49BD560768DFF733A /* Pods-GlovoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlovoTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlovoTestTests/Pods-GlovoTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A31720DEE0947015408178 /* Pods_GlovoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlovoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3049587820E5BF1B00C41A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304958A220E5DD6800C41A73 /* MapKit.framework in Frameworks */,
+				D8AA417E6F0357D6084403BB /* Pods_GlovoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049588C20E5BF2800C41A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C801E425C789CA13533A1B80 /* Pods_GlovoTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3049587220E5BF1B00C41A73 = {
+			isa = PBXGroup;
+			children = (
+				3049587D20E5BF1B00C41A73 /* GlovoTest */,
+				3049589220E5BF2800C41A73 /* GlovoTestTests */,
+				3049587C20E5BF1B00C41A73 /* Products */,
+				304958A020E5DD6700C41A73 /* Frameworks */,
+				F1302E3FD11A13F57E1FAD35 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3049587C20E5BF1B00C41A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3049587B20E5BF1B00C41A73 /* GlovoTest.app */,
+				3049588F20E5BF2800C41A73 /* GlovoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3049587D20E5BF1B00C41A73 /* GlovoTest */ = {
+			isa = PBXGroup;
+			children = (
+				307893E520E84C2000414122 /* Location */,
+				3049587E20E5BF1B00C41A73 /* AppDelegate.swift */,
+				307893E620E8A61200414122 /* MapViewController.swift */,
+				30274FBB20E8B53A0009DC4D /* LocSelViewController.swift */,
+				3049588020E5BF1B00C41A73 /* ViewController.swift */,
+				3049588220E5BF1B00C41A73 /* Main.storyboard */,
+				3049588520E5BF2800C41A73 /* Assets.xcassets */,
+				3049588720E5BF2800C41A73 /* LaunchScreen.storyboard */,
+				3049588A20E5BF2800C41A73 /* Info.plist */,
+			);
+			path = GlovoTest;
+			sourceTree = "<group>";
+		};
+		3049589220E5BF2800C41A73 /* GlovoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3049589320E5BF2800C41A73 /* GlovoTestTests.swift */,
+				3049589520E5BF2800C41A73 /* Info.plist */,
+			);
+			path = GlovoTestTests;
+			sourceTree = "<group>";
+		};
+		304958A020E5DD6700C41A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304958A120E5DD6800C41A73 /* MapKit.framework */,
+				0FFFC43B47A76D8CDF699C93 /* Pods_GlovoTest.framework */,
+				C5A31720DEE0947015408178 /* Pods_GlovoTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		307893E520E84C2000414122 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3049589E20E5CB6E00C41A73 /* LocationManager.swift */,
+				307893DF20E7394B00414122 /* CityFetcher.swift */,
+				307893E120E73B2400414122 /* CountryFetcher.swift */,
+				307893E320E78FA500414122 /* CityInfoFetcher.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		F1302E3FD11A13F57E1FAD35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5462E06B865B090BDE4FEAE9 /* Pods-GlovoTest.debug.xcconfig */,
+				3491F8B434E8444F9847F562 /* Pods-GlovoTest.release.xcconfig */,
+				06F944603CFC0AE41BBA9BBD /* Pods-GlovoTestTests.debug.xcconfig */,
+				67F684C49BD560768DFF733A /* Pods-GlovoTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3049587A20E5BF1B00C41A73 /* GlovoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049589820E5BF2800C41A73 /* Build configuration list for PBXNativeTarget "GlovoTest" */;
+			buildPhases = (
+				617C1B59FA9E86DBA099D126 /* [CP] Check Pods Manifest.lock */,
+				3049587720E5BF1B00C41A73 /* Sources */,
+				3049587820E5BF1B00C41A73 /* Frameworks */,
+				3049587920E5BF1B00C41A73 /* Resources */,
+				744654E35AFC8D559C191524 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlovoTest;
+			productName = GlovoTest;
+			productReference = 3049587B20E5BF1B00C41A73 /* GlovoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3049588E20E5BF2800C41A73 /* GlovoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049589B20E5BF2800C41A73 /* Build configuration list for PBXNativeTarget "GlovoTestTests" */;
+			buildPhases = (
+				932F933281C2CF6E8AC7F8AC /* [CP] Check Pods Manifest.lock */,
+				3049588B20E5BF2800C41A73 /* Sources */,
+				3049588C20E5BF2800C41A73 /* Frameworks */,
+				3049588D20E5BF2800C41A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3049589120E5BF2800C41A73 /* PBXTargetDependency */,
+			);
+			name = GlovoTestTests;
+			productName = GlovoTestTests;
+			productReference = 3049588F20E5BF2800C41A73 /* GlovoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3049587320E5BF1B00C41A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "sheen vempeny";
+				TargetAttributes = {
+					3049587A20E5BF1B00C41A73 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3049588E20E5BF2800C41A73 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3049587A20E5BF1B00C41A73;
+					};
+				};
+			};
+			buildConfigurationList = 3049587620E5BF1B00C41A73 /* Build configuration list for PBXProject "GlovoTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3049587220E5BF1B00C41A73;
+			productRefGroup = 3049587C20E5BF1B00C41A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3049587A20E5BF1B00C41A73 /* GlovoTest */,
+				3049588E20E5BF2800C41A73 /* GlovoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3049587920E5BF1B00C41A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049588920E5BF2800C41A73 /* LaunchScreen.storyboard in Resources */,
+				3049588620E5BF2800C41A73 /* Assets.xcassets in Resources */,
+				3049588420E5BF1B00C41A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049588D20E5BF2800C41A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		617C1B59FA9E86DBA099D126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlovoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744654E35AFC8D559C191524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GlovoTest/Pods-GlovoTest-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlovoTest/Pods-GlovoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932F933281C2CF6E8AC7F8AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlovoTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3049587720E5BF1B00C41A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049588120E5BF1B00C41A73 /* ViewController.swift in Sources */,
+				3049587F20E5BF1B00C41A73 /* AppDelegate.swift in Sources */,
+				307893E220E73B2400414122 /* CountryFetcher.swift in Sources */,
+				307893E020E7394B00414122 /* CityFetcher.swift in Sources */,
+				307893E420E78FA500414122 /* CityInfoFetcher.swift in Sources */,
+				3049589F20E5CB6F00C41A73 /* LocationManager.swift in Sources */,
+				30274FBC20E8B53A0009DC4D /* LocSelViewController.swift in Sources */,
+				307893E720E8A61200414122 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049588B20E5BF2800C41A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049589420E5BF2800C41A73 /* GlovoTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3049589120E5BF2800C41A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3049587A20E5BF1B00C41A73 /* GlovoTest */;
+			targetProxy = 3049589020E5BF2800C41A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3049588220E5BF1B00C41A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049588320E5BF1B00C41A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3049588720E5BF2800C41A73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049588820E5BF2800C41A73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3049589620E5BF2800C41A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3049589720E5BF2800C41A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3049589920E5BF2800C41A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5462E06B865B090BDE4FEAE9 /* Pods-GlovoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlovoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheen.GlovoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3049589A20E5BF2800C41A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3491F8B434E8444F9847F562 /* Pods-GlovoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlovoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheen.GlovoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3049589C20E5BF2800C41A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F944603CFC0AE41BBA9BBD /* Pods-GlovoTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlovoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheen.GlovoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlovoTest.app/GlovoTest";
+			};
+			name = Debug;
+		};
+		3049589D20E5BF2800C41A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F684C49BD560768DFF733A /* Pods-GlovoTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlovoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheen.GlovoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlovoTest.app/GlovoTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3049587620E5BF1B00C41A73 /* Build configuration list for PBXProject "GlovoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049589620E5BF2800C41A73 /* Debug */,
+				3049589720E5BF2800C41A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049589820E5BF2800C41A73 /* Build configuration list for PBXNativeTarget "GlovoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049589920E5BF2800C41A73 /* Debug */,
+				3049589A20E5BF2800C41A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049589B20E5BF2800C41A73 /* Build configuration list for PBXNativeTarget "GlovoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049589C20E5BF2800C41A73 /* Debug */,
+				3049589D20E5BF2800C41A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3049587320E5BF1B00C41A73 /* Project object */;
+}
